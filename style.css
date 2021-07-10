@@ -5,6 +5,8 @@ body{
 }
 h1{
     font-size: 80px;
+}.head{
+    color:mediumpurple;
 }
 
 .orange{
@@ -14,7 +16,8 @@ h1{
     color: rgb(150, 92, 205);
 }
 section{
-    display:flex
+    display:flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -39,4 +42,10 @@ section{
     background-repeat: no-repeat;
     background-size: 50%;
     
+}
+.blogs{
+    background-image: url(img/bs.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 50%;
 }
