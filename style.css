@@ -5,7 +5,11 @@ body{
 }
 h1{
     font-size: 80px;
-}.head{
+}
+.h2{
+    font-size: 60px;
+}
+.head{
     color:mediumpurple;
 }
 
@@ -15,7 +19,7 @@ h1{
 .grey{
     color: rgb(150, 92, 205);
 }
-section{
+.flexible{
     display:flex;
     margin-bottom: 100px;
 }
@@ -48,4 +52,33 @@ section{
     background-repeat: no-repeat;
     background-position:right;
     background-size: 50%;
+}
+.experience-item{
+    box-shadow: 10px 10px 50px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+
+}
+.inspire{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(#6b137c, #0a07c2) 30;
+    border-image-slice: 1;
+}
+#developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#120a88, #198528) 30;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
